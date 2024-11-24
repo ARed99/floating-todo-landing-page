@@ -172,17 +172,20 @@ export default function Home(): JSX.Element {
 
     return (
         <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
-            <header className="container mx-auto px-4 pt-20 pb-32 text-center">
-                <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                    Your Tasks,{' '}
-                    <span className="text-purple-600">
+            <header className="container h-max mx-auto px-4 pt-20 pb-32 text-center bg-gradient-to-r from-violet-800 via-red-500 to-purple-800">
+                <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-yellow-400 bg-clip-text text-transparent animate-text">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400">
+                        Your Tasks,{' '}
+                    </span>{' '}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-400">
                         Everywhere
                     </span>
                 </h1>
-                <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                <p className="text-xl text-white mb-8 max-w-2xl mx-auto ">
                     A floating todo list
                     that follows you
-                    across the web,
+                    across the web,{' '}
+                    <br className="m-4" />
                     helping you stay
                     organized without
                     switching tabs.
