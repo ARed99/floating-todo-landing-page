@@ -135,6 +135,7 @@ export default function Home(): JSX.Element {
                     switching tabs.
                 </p>
                 <a
+                    className="px-8 py-4 rounded-full text-lg font-semibold transition-colors duration-200 flex items-center gap-2 mx-auto"
                     target="_blank_"
                     href="https://chromewebstore.google.com/detail/floating-todo-app/baofnehekhobikaeeidlhjaggcehnpld">
                     <Button>
@@ -171,7 +172,7 @@ export default function Home(): JSX.Element {
             </section>
             {/* Demo Section */}
             const DemoSection: React.FC
-            = (): JSX.Element ={'>'} (
+            = (): JSX.Element => (
             <section className="bg-purple-50 py-20">
                 <div className="container mx-auto px-4">
                     <h2 className="text-3xl font-bold text-center mb-16">
@@ -244,6 +245,7 @@ export default function Home(): JSX.Element {
                     Todo App.
                 </p>
                 <a
+                    className="px-8 py-4 rounded-full text-lg font-semibold transition-colors duration-200 flex items-center gap-2 mx-auto"
                     target="_blank"
                     href="https://chromewebstore.google.com/detail/floating-todo-app/baofnehekhobikaeeidlhjaggcehnpld">
                     <Button>
